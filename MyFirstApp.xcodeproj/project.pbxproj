@@ -10,7 +10,6 @@
 		F05A295F1E7D924F000D6DF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A295E1E7D924F000D6DF2 /* AppDelegate.swift */; };
 		F05A29611E7D924F000D6DF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05A29601E7D924F000D6DF2 /* ViewController.swift */; };
 		F05A29641E7D924F000D6DF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A29621E7D924F000D6DF2 /* Main.storyboard */; };
-		F05A29661E7D924F000D6DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05A29651E7D924F000D6DF2 /* Assets.xcassets */; };
 		F05A29691E7D924F000D6DF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05A29671E7D924F000D6DF2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F05A29691E7D924F000D6DF2 /* LaunchScreen.storyboard in Resources */,
-				F05A29661E7D924F000D6DF2 /* Assets.xcassets in Resources */,
 				F05A29641E7D924F000D6DF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +261,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alluring.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -275,6 +274,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = alluring.MyFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -297,6 +297,7 @@
 				F05A296F1E7D924F000D6DF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
